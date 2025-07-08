@@ -59,7 +59,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/cosmic-explorer-backend.git
+git clone https://github.com/Vjalaj/Cosm_Backend.git
 cd cosmic-explorer-backend
 
 # Deploy to Heroku
@@ -71,7 +71,7 @@ git push heroku main
 
 ```bash
 # 1. Clone and setup
-git clone https://github.com/yourusername/cosmic-explorer-backend.git
+git clone https://github.com/Vjalaj/Cosm_Backend.git
 cd cosmic-explorer-backend
 
 # 2. Create virtual environment (REQUIRED)
