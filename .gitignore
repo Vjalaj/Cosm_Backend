@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+coverage/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific
+.env
+*.log
+logs/*
+!logs/README.md
+cache/*
+!cache/README.md
+
+# Frontend - COMPLETELY EXCLUDED (separate repository)
+frontend/
+
+# Streamlit
+.streamlit/
+
+# Windows batch files (not needed on Heroku)
+*.bat
+
+# Heroku
+.herokuapp/
+
+# Additional exclusions for clean repo
+*.bak
+*.tmp
+*.temp
+.pytest_cache/
+htmlcov/
+.coverage
+.tox/

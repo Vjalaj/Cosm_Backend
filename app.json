@@ -1,0 +1,38 @@
+{
+  "name": "Cosmic Explorer Backend API",
+  "description": "A sophisticated space information API with NLP processing and multi-source web scraping",
+  "image": "heroku/python",
+  "repository": "https://github.com/yourusername/cosmic-explorer-backend",
+  "keywords": [
+    "python",
+    "flask",
+    "api",
+    "space",
+    "nasa",
+    "nlp",
+    "web-scraping",
+    "astronomy"
+  ],
+  "env": {
+    "DEBUG": {
+      "description": "Enable debug mode",
+      "value": "False"
+    },
+    "LOG_LEVEL": {
+      "description": "Logging level",
+      "value": "INFO"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
